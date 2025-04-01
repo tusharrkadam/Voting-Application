@@ -5,12 +5,13 @@ It provides functionalities for user authentication, candidate management, and v
 
 Features:
 
-User sign up and login with Aadhar Card Number and password
-User can view the list of candidates
-User can vote for a candidate (only once)
-Admin can manage candidates (add, update, delete)
-Admin cannot vote
-Technologies Used
+User sign up and login with Aadhar Card Number and password.
+User can view the list of candidates.
+User can vote for a candidate (only once).
+Admin can manage candidates (add, update, delete).
+Admin cannot vote.
+
+Technologies Used -
 Node.js
 Express.js
 MongoDB
@@ -19,11 +20,11 @@ JSON Web Tokens (JWT) for authentication
 Installation
 Clone the repository:
 
+ link : https://github.com/tusharrkadam/Voting-Application.git
 
-
-API Endpoints
-Authentication
-Sign Up
+API Endpoints.
+Authentication.
+Sign Up.
 
 POST /signup – Sign up a new user
 
