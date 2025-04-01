@@ -17,8 +17,8 @@ Express.js.
 MongoDB.
 JSON Web Tokens (JWT) for authentication .
 
-Installation.
-Clone the repository:
+Installation: 
+Clone the repository.
 
  link : https://github.com/tusharrkadam/Voting-Application.git
 
