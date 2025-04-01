@@ -12,12 +12,12 @@ Admin can manage candidates (add, update, delete).
 Admin cannot vote.
 
 Technologies Used -
-Node.js
-Express.js
-MongoDB
-JSON Web Tokens (JWT) for authentication
+Node.js.
+Express.js.
+MongoDB.
+JSON Web Tokens (JWT) for authentication .
 
-Installation
+Installation.
 Clone the repository:
 
  link : https://github.com/tusharrkadam/Voting-Application.git
