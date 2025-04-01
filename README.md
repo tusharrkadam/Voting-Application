@@ -1,7 +1,10 @@
-Voting Application
-This is a backend application for a voting system where users can vote for candidates. It provides functionalities for user authentication, candidate management, and voting.
+Voting Application: (Backend)
 
-Features
+This is a backend application for a voting system where users can vote for candidates. 
+It provides functionalities for user authentication, candidate management, and voting.
+
+Features:
+
 User sign up and login with Aadhar Card Number and password
 User can view the list of candidates
 User can vote for a candidate (only once)
@@ -12,6 +15,7 @@ Node.js
 Express.js
 MongoDB
 JSON Web Tokens (JWT) for authentication
+
 Installation
 Clone the repository:
 
@@ -20,25 +24,45 @@ Clone the repository:
 API Endpoints
 Authentication
 Sign Up
-POST /signup: Sign up a user
+
+POST /signup – Sign up a new user
+
 Login
-POST /login: Login a user
-Candidates
+
+POST /login – Authenticate a user
+
+Candidates Management
 Get Candidates
-GET /candidates: Get the list of candidates
-Add Candidate
-POST /candidates: Add a new candidate (Admin only)
-Update Candidate
-PUT /candidates/:id: Update a candidate by ID (Admin only)
-Delete Candidate
-DELETE /candidates/:id: Delete a candidate by ID (Admin only)
+
+GET /candidates – Retrieve the list of candidates
+
+Add Candidate (Admin only)
+
+POST /candidates – Add a new candidate
+
+Update Candidate (Admin only)
+
+PUT /candidates/:id – Update candidate details by ID
+
+Delete Candidate (Admin only)
+
+DELETE /candidates/:id – Remove a candidate by ID
+
 Voting
 Get Vote Count
-GET /candidates/vote/count: Get the count of votes for each candidate
-Vote for Candidate
-POST /candidates/vote/:id: Vote for a candidate (User only)
+
+GET /candidates/vote/count – Get the total votes for each candidate
+
+Vote for a Candidate (User only)
+
+POST /candidates/vote/:id – Vote for a specific candidate
+
 User Profile
 Get Profile
-GET /users/profile: Get user profile information
+
+GET /users/profile – Retrieve user profile information
+
 Change Password
-PUT /users/profile/password: Change user password
+
+PUT /users/profile/password – Update user password
+
